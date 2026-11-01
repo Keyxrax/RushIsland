@@ -2,7 +2,7 @@ name: RushIsland
 version: ${version}
 main: ir.nebula.rushisland.RushIslandPlugin
 authors: [Keyxrax]
-description: RushIsland Arcade minigame (bridge, loot, PvP) for Spigot 1.8.8+
+description: RushIsland Arcade minigame
 softdepend: [HolographicDisplays, PlaceholderAPI]
 commands:
   rushisland:
