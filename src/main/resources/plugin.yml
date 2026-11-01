@@ -1,0 +1,18 @@
+name: RushIsland
+version: ${version}
+main: ir.nebula.rushisland.RushIslandPlugin
+authors: [Keyxrax]
+description: RushIsland Arcade minigame (bridge, loot, PvP) for Spigot 1.8.8+
+softdepend: [HolographicDisplays, PlaceholderAPI]
+commands:
+  rushisland:
+    description: RushIsland commands.
+    aliases: [rush, ri]
+    usage: /rush <join|leave|ready|list|stats|admin>
+permissions:
+  rushisland.admin:
+    description: Allows administration of RushIsland and bypasses arena restrictions.
+    default: op
+  rushisland.play:
+    description: Allows joining RushIsland matches.
+    default: true

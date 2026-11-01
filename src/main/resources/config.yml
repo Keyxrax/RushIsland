@@ -1,0 +1,47 @@
+arena:
+  world: rushisland
+  base-y: 100
+  lane-spacing: 48
+  lanes: 8
+  island-radius: 5
+  loot-island-radius: 6
+  bridge-gap: 32
+  pvp-radius: 30
+
+match:
+  min-players: 2
+  max-players: 8
+  countdown-seconds: 20
+  full-countdown-seconds: 5
+  bridge-loot-seconds: 90
+  starting-bridge-blocks: 128
+  allow-ready: true
+  ready-countdown-seconds: 5
+  pvp-seconds: 300
+  pvp-grace-seconds: 5
+  sudden-death-seconds: 120
+  shrink-interval-seconds: 5
+  min-pvp-radius: 4
+  ending-seconds: 8
+  randomize-lanes: true
+
+loot:
+  randomize: true
+
+scoreboard:
+  enabled: true
+  title: "&e&lRUSH ISLAND"
+  footer: "&eplay.trexmine.com"
+
+effects:
+  sounds: true
+  fireworks: true
+  lightning: true
+  titles: true
+
+allowed-commands: ["/msg", "/tell", "/w", "/r", "/reply"]
+
+rewards:
+  win-commands: []
+  participation-commands: []
+  kill-commands: []
